@@ -1,5 +1,6 @@
 name: deploy
-
+permissions: 
+  contents: write
 on:
   # 每当 push 到 main 分支时触发部署
   # Deployment is triggered whenever a push is made to the main branch.
@@ -21,10 +22,10 @@ jobs:
           fetch-depth: 0
 
       # 新增 Git 身份配置
-      - name: Configure Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      # - name: Configure Git
+      #   run: |
+      #     git config --global user.name "github-actions[bot]"
+      #     git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -62,10 +63,10 @@ jobs:
           # 新增关键配置
           repo: javashub/javashub.github.io
           # 强制使用 JWT 认证
-          force_orphan: true
-          # 显式设置带 Token 的 Git URL
-          git_config_email: "41898282+github-actions[bot]@users.noreply.github.com"
-          git_config_name: "github-actions[bot]"
+          # force_orphan: true
+          # # 显式设置带 Token 的 Git URL
+          # git_config_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          # git_config_name: "github-actions[bot]"
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
