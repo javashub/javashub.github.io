@@ -20,6 +20,12 @@ jobs:
           # "Last updated time" and other git log-related information require fetching all commit records.
           fetch-depth: 0
 
+      # 新增 Git 身份配置
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
 
@@ -51,7 +57,15 @@ jobs:
           target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
           build_dir: docs/.vuepress/dist
+          # 域名
           fqdn: "imlyk.cn"
+          # 新增关键配置
+          repo: javashub/javashub.github.io
+          # 强制使用 JWT 认证
+          force_orphan: true
+          # 显式设置带 Token 的 Git URL
+          git_config_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          git_config_name: "github-actions[bot]"
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
