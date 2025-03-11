@@ -62,11 +62,6 @@ jobs:
           fqdn: "imlyk.cn"
           # 新增关键配置
           repo: javashub/javashub.github.io
-          # 强制使用 JWT 认证
-          # force_orphan: true
-          # # 显式设置带 Token 的 Git URL
-          # git_config_email: "41898282+github-actions[bot]@users.noreply.github.com"
-          # git_config_name: "github-actions[bot]"
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

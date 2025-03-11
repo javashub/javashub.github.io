@@ -7,14 +7,14 @@ export default defineUserConfig({
   lang: 'zh-CN',
   locales: {
     '/': {
-      title: 'Javashub',
+      title: 'JavasHub',
       lang: 'zh-CN',
-      description: 'Javashub Blog',
+      description: 'JavasHub Blog',
     },
     '/en/': {
-      title: 'Javashub',
+      title: 'JavasHub',
       lang: 'en-US',
-      description: 'Javashub Blog',
+      description: 'JavasHub Blog',
     },
   },
 
