@@ -9,7 +9,7 @@ export default defineUserConfig({
     '/': {
       title: 'JavasHub',
       lang: 'zh-CN',
-      description: 'JavasHub Blog',
+      description: '欲买桂花同载酒，终不似，少年游。',
     },
     '/en/': {
       title: 'JavasHub',
