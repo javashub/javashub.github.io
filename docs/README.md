@@ -9,7 +9,7 @@ config:
     hero:
       name: JavasHub
       tagline: 
-      text: Java求职面试必备知识
+      text: 好好学 Java，Java求职面试必备知识
       actions:
         -
           theme: brand
