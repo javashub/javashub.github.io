@@ -19,6 +19,8 @@ config:
           theme: alt
           text: Github →
           link: https://github.com/javashub/javashub.github.io
+footer: |-
+  主题: <a href="https://github.com/pengzhanbo/vuepress-theme-plume" target="_blank">VuePress Theme Plume</a>
 ---
 
 

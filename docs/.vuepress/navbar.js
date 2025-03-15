@@ -7,7 +7,15 @@ export const zhNavbar = defineNavbarConfig([
   // { text: '归档', link: '/blog/archives/' },
   {
     text: '简历求职',
-    items: [{ text: '简历网站', link: '/work/resume-site/RESUME.md' }]
+    items: [
+      { text: '简历网站', link: '/work/resume-site/RESUME.md' }
+    ]
+  },
+  {
+    text: '笔记',
+    items: [
+      // { text: '简历网站', link: '/work/resume-site/RESUME.md' }
+    ]
   }
 ])
 
