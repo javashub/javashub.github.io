@@ -10,12 +10,12 @@ export default defineUserConfig({
       title: 'JavasHub',
       lang: 'zh-CN',
       description: '欲买桂花同载酒，终不似，少年游。',
-    },
-    '/en/': {
-      title: 'JavasHub',
-      lang: 'en-US',
-      description: 'JavasHub Blog',
-    },
+    }
+    // '/en/': {
+    //   title: 'JavasHub',
+    //   lang: 'en-US',
+    //   description: 'JavasHub Blog',
+    // },
   },
 
   head: [

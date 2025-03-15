@@ -1,5 +1,5 @@
 ---
-title: 简历网站
+title: 简历网站推荐
 createTime: 2024/09/08 22:53:34
 permalink: /interview/resume/resume-site/ # 永久链接
 ---
