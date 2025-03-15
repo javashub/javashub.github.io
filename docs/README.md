@@ -4,7 +4,7 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: doc-hero # hero
+    type: hero # doc-hero
     full: true
     background: tint-plate
     tintPlate: # 背景色调 0 ~ 255
@@ -21,8 +21,8 @@ config:
           theme: alt
           text: Github →
           link: https://github.com/javashub/javashub.github.io
-#footer: |-
-#  主题: <a href="https://github.com/pengzhanbo/vuepress-theme-plume" target="_blank">VuePress Theme Plume</a>
+footer: |-
+  主题: <a href="https://github.com/pengzhanbo/vuepress-theme-plume" target="_blank">VuePress Theme Plume</a>
 ---
 
 
