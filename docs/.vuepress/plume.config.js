@@ -1,5 +1,5 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
-import { enNavbar, zhNavbar } from './navbar'
+import { zhNavbar } from './navbar'
 import { enNotes, zhNotes } from './notes'
 
 /**
@@ -11,7 +11,7 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/javashub/javashub.github.io' },
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
@@ -67,33 +67,33 @@ export default defineThemeConfig({
        //   title: '',
        //   content: '',
        // },
-    },
-    '/en/': {
-      /**
-       * @see https://theme-plume.vuejs.press/config/basic/#profile
-       */
-      profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'Javashub',
-        description: 'Javashub Blog',
-        // circle: true,
-        // location: '',
-        // organization: '',
-      },
-
-      navbar: enNavbar,
-      notes: enNotes,
-
-      /**
-       * 公告板
-       * @see https://theme-plume.vuejs.press/guide/features/bulletin/
-       */
-       // bulletin: {
-       //   layout: 'top-right',
-       //   contentType: 'markdown',
-       //   title: '',
-       //   content: '',
-       // },
-    },
+    }
+    // '/en/': {
+    //   /**
+    //    * @see https://theme-plume.vuejs.press/config/basic/#profile
+    //    */
+    //   profile: {
+    //     avatar: 'https://theme-plume.vuejs.press/plume.png',
+    //     name: 'Javashub',
+    //     description: 'Javashub Blog',
+    //     // circle: true,
+    //     // location: '',
+    //     // organization: '',
+    //   },
+    //
+    //   navbar: enNavbar,
+    //   notes: enNotes,
+    //
+    //   /**
+    //    * 公告板
+    //    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
+    //    */
+    //    // bulletin: {
+    //    //   layout: 'top-right',
+    //    //   contentType: 'markdown',
+    //    //   title: '',
+    //    //   content: '',
+    //    // },
+    // },
   },
 })
