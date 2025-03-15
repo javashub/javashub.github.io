@@ -10,12 +10,6 @@ export const zhNavbar = defineNavbarConfig([
     items: [
       { text: '简历网站', link: '/work/resume-site/RESUME.md' }
     ]
-  },
-  {
-    text: '笔记',
-    items: [
-      // { text: '简历网站', link: '/work/resume-site/RESUME.md' }
-    ]
   }
 ])
 
