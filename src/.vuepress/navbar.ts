@@ -24,8 +24,13 @@ export default navbar([
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "简历求职",
+    prefix: "/work",
+    children: [
+      {
+        text: "简历网站",
+        link: "/resume-site/jian-li-wang-zhan-tui-jian.md",
+      },
+    ]
   },
 ]);

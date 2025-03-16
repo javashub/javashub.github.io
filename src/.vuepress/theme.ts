@@ -4,16 +4,16 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://imlyk.cn/",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "JavasHub",
+    url: "https://imlyk.cn/",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/javashub/javashub.github.io",
 
   docsDir: "src",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: 'Deploy by VuePress,Theme <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> | Copyright © 2022-present JavasHub',
   displayFooter: true,
 
   // 加密配置
