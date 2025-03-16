@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/portfolio",
+  // "/portfolio",
   "/demo/",
   {
     text: "指南",
@@ -25,12 +25,12 @@ export default navbar([
   },
   {
     text: "简历求职",
-    prefix: "/work",
+    prefix: "/work/",
     children: [
       {
         text: "简历网站",
-        link: "/resume-site/jian-li-wang-zhan-tui-jian.md",
-      },
+        link: "resume-site/jian-li-wang-zhan-tui-jian.md",
+      }
     ]
   },
 ]);

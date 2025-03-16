@@ -13,9 +13,17 @@ export default hopeTheme({
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
+  // github 仓库
   repo: "https://github.com/javashub/javashub.github.io",
 
+  // 文档目录
   docsDir: "src",
+
+  // 纯净模式 在这个模式下，我们会禁用一些花哨的动画以及一些色彩，只提供功能
+  // pure: true,
+
+  // 全屏按钮
+  fullscreen: true,
 
   // 导航栏
   navbar,
@@ -24,7 +32,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: 'Deploy by VuePress,Theme <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> | Copyright © 2022-present JavasHub',
+  footer: 'Deploy by VuePress,Theme <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a>',
   displayFooter: true,
 
   // 加密配置
@@ -120,13 +128,13 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     components: {
       components: ["Badge", "VPCard"],
