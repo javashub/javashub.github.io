@@ -136,6 +136,12 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
+    // 开启复制自动附加版权
+    copyright: {
+      author: "JavasHub",
+      license: "Apache-License 2.0"
+    },
+
     components: {
       components: ["Badge", "VPCard"],
     },
