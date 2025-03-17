@@ -5,7 +5,7 @@ title: 档案主页
 icon: house
 welcome: 👋 安静一下，我讲两句，我是
 name: JavasHub
-avatar: https://theme-hope-assets.vuejs.press/hero/conan.png # 头像
+avatar: './.vuepress/public/assets/image/nailong_2-removebg-preview.png'
 
 titles:
   - 一位明明可以靠着英俊的脸庞吃饭
