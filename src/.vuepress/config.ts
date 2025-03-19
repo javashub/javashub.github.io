@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "JavasHub",
-  description: "",
+  description: "描述信息",
 
   theme,
 

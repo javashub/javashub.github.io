@@ -11,6 +11,7 @@ export default hopeTheme({
     url: "https://imlyk.cn/",
   },
 
+  // 网站 logo
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   // github 仓库
@@ -20,7 +21,7 @@ export default hopeTheme({
   docsDir: "src",
 
   // 纯净模式 在这个模式下，我们会禁用一些花哨的动画以及一些色彩，只提供功能
-  // pure: true,
+  pure: true,
 
   // 全屏按钮
   fullscreen: true,
@@ -47,7 +48,7 @@ export default hopeTheme({
 
   // 多语言配置
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    // editLink: "在 GitHub 上编辑此页",
   },
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
@@ -127,16 +128,16 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    comment: {
-      // 开启评论服务 参考：https://juejin.cn/post/7261555752586084410
-      // 1、安装 github.com/apps/giscus
-      // 2、设置仓库 & 分类 giscus.app/zh-CN
-      provider: "Giscus",
-      repo: "javashub/javashub.github.io",
-      repoId: "R_kgDOOJTEmQ", // 替换下
-      category: "Announcements",
-      categoryId: "DIC_kwDOOJTEmc4CoNmU" // 替换下
-    },
+    // comment: {
+    //   // 开启评论服务 参考：https://juejin.cn/post/7261555752586084410
+    //   // 1、安装 github.com/apps/giscus
+    //   // 2、设置仓库 & 分类 giscus.app/zh-CN
+    //   provider: "Giscus",
+    //   repo: "javashub/javashub.github.io",
+    //   repoId: "R_kgDOOJTEmQ", // 替换下
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOOJTEmc4CoNmU" // 替换下
+    // },
 
     // 开启复制自动附加版权
     copyright: {
