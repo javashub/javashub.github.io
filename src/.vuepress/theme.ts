@@ -139,6 +139,35 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOOJTEmc4CoNmU" // 替换下
     // },
 
+    // docsearch 搜索插件选项
+    // docsearch: {
+    //   // 必填
+    //   apiKey: '',
+    //   indexName: '',
+    //   appId: '',
+    //
+    //   // 可选
+    //   placeholder: '搜索文档',
+    // },
+
+    // 简单一点的搜索
+    slimsearch: { // SlimSearchPluginOptions 对象
+      // 是否索引正文，默认false
+      indexContent: true,
+      // 是否在输入时提供自动建议
+      suggestion: true,
+      // 存储查询历史的最大数量,设置 0 时禁用
+      queryHistoryCount: 5,
+      // 存储结果历史的最大数量 0 禁用
+      resultHistoryCount: 5,
+      // 弹出热键
+      // hotKeys:
+      // 自定义 CustomFieldOptions 对象数组
+      customFields: [
+
+      ]
+    },
+
     // 开启复制自动附加版权
     copyright: {
       author: "JavasHub",
