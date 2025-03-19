@@ -136,6 +136,15 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
+    comment: {
+      // You should generate and use your own comment service
+      provider: "Giscus",
+      repo: "javashub/javashub.github.io",
+      repoId: "R_kgDOOJTEmQ", // 替换下
+      category: "Announcements",
+      categoryId: "DIC_kwDOOJTEmc4CoNmU" // 替换下
+    },
+
     // 开启复制自动附加版权
     copyright: {
       author: "JavasHub",
