@@ -127,17 +127,10 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "vuepress-theme-hope/giscus-discussions",
-    //   repoId: "R_kgDOG_Pt2A",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
-    // },
-
     comment: {
-      // You should generate and use your own comment service
+      // 开启评论服务 参考：https://juejin.cn/post/7261555752586084410
+      // 1、安装 github.com/apps/giscus
+      // 2、设置仓库 & 分类 giscus.app/zh-CN
       provider: "Giscus",
       repo: "javashub/javashub.github.io",
       repoId: "R_kgDOOJTEmQ", // 替换下
