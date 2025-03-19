@@ -1,1 +1,14 @@
 // place your custom styles here
+/* 设置导航栏链接字体为粗体 */
+.navbar .nav-links a {
+  font-weight: bold !important;
+}
+
+/* 若需要调整导航栏标题（如左上角标题） */
+.navbar .site-name {
+  font-weight: bold !important;
+}
+
+.vp-navbar .auto-link.route-link-active {
+  font-weight: bold !important;
+}

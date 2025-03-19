@@ -2,8 +2,7 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
-    "portfolio",
+    // "portfolio", // 侧边栏档案主业
     {
       text: "案例",
       icon: "laptop-code",

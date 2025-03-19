@@ -1,8 +1,8 @@
 ---
 home: true
 icon: house
-title: 主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+title: Java 面试
+heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -12,7 +12,7 @@ tagline: 好好学 Java, Java求职面试必备知识。
 actions:
   - text: 开始阅读
     icon: lightbulb
-    link: ./demo/
+    link: /home.md
     type: primary
 
   - text: Github →
