@@ -139,6 +139,7 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOOJTEmc4CoNmU" // 替换下
     // },
 
+
     // docsearch 搜索插件选项
     docsearch: {
       // 必填
@@ -168,10 +169,21 @@ export default hopeTheme({
     //   ]
     // },
 
+    // 订阅
+    // feed: {
+    //   atom: true,
+    //   json: true,
+    //   rss: true,
+    // },
+
     // 开启复制自动附加版权
     copyright: {
       author: "JavasHub",
-      license: "Apache-License 2.0"
+      license: "Apache-License 2.0",
+      triggerLength: 100,
+      maxLength: 700,
+      canonical: "http://javashub.cn/",
+      global: true,
     },
 
     components: {
