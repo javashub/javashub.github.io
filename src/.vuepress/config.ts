@@ -24,7 +24,7 @@ export default defineUserConfig({
         });
     },
 
-    // index.html中注入 head
+    // index.html中注入 head  参考：https://theme-hope.vuejs.press/zh/guide/customize/font.html#%E4%BA%BA%E4%BA%BA%E7%94%9F%E8%80%8C%E8%87%AA%E7%94%B1
     head: [
         [
             "link",
