@@ -24,6 +24,18 @@ export default defineUserConfig({
         });
     },
 
+    // index.html中注入 head
+    head: [
+        [
+            "link",
+            { rel: "stylesheet" , href: "https://cdn.jsdelivr.net/npm/@docsearch/css@3"}
+        ],
+        [
+            "script",
+            { src: "https://cdn.jsdelivr.net/npm/@docsearch/js@3"}
+        ]
+    ]
+
     // 和 PWA 一起启用
     // shouldPrefetch: false,
 });
