@@ -142,8 +142,8 @@ export default hopeTheme({
 
     // docsearch 搜索插件选项
     docsearch: {
-      appId: "5IEUZKNR4Z", // "KH7SY7AEUO", // 5IEUZKNR4Z
-      apiKey: "a4a88404dd0c83d02ecad92509ff41ea", // "b2a3b223caeed0e8976dcb3f313c5026", // a4a88404dd0c83d02ecad92509ff41ea
+      appId: "5IEUZKNR4Z", // "KH7SY7AEUO", // 5IEUZKNR4Z   "a29731e9944983920c342f45a82f80a4",
+      apiKey: "a29731e9944983920c342f45a82f80a4", // "b2a3b223caeed0e8976dcb3f313c5026", // a4a88404dd0c83d02ecad92509ff41ea
       indexName: "imlyk",
       locales: {
         "/": {
