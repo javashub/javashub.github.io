@@ -20,6 +20,7 @@
     "vuepress-theme-hope": "2.0.0-rc.74"
   },
   "dependencies": {
+    "@docsearch/js": "3",
     "@vuepress/helper": "2.0.0-rc.3",
     "pnpm": "^10.6.4",
     "postcss-preset-env": "^10.1.5"
