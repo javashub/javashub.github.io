@@ -1,29 +1,13 @@
 {
-    "index_name": "imlyk",
-    "rateLimit": 8,
-    "start_urls": [
-        "https://imlyk.cn/"
-    ],
-    "discoveryPatterns": ["https://imlyk.cn/**"],
-    "recordProps": {
-        "lvl0": {
-            "selectors": ".sidebar-heading.active",
-            "defaultValue": "Documentation"
-        },
-        "lvl1": ".theme-hope-content h1",
-        "lvl2": ".theme-hope-content h2",
-        "lvl3": ".theme-hope-content h3",
-        "lvl4": ".theme-hope-content h4",
-        "lvl5": ".theme-hope-content h5",
-        "lvl6": ".theme-hope-content h6",
-        "content": ".theme-hope-content p, .theme-hope-content ul, .theme-hope-content li"
-    },
-    "indexHeadings": true,
-    "scrape_start_urls": false,
-    "strip_chars": " .,;:#",
-    "custom_settings": {
-        "attributesForFaceting": [
-            "lang"
-        ]
-    }
+  "index_name": "imlyk",
+  "start_urls": ["https://imlyk.cn/", "https://www.imlyk.cn/"],
+  "selectors": {
+    "lvl0": "#content header h1",
+    "lvl1": "#content article h1",
+    "lvl2": "#content section h3",
+    "lvl3": "#content section h4",
+    "lvl4": "#content section h5",
+    "lvl5": "#content section h6",
+    "text": "#content header p,#content section p,#content section ol"
+  }
 }
