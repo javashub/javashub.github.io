@@ -1,6 +1,6 @@
 {
-  "index_name": "imlyk",
-  "start_urls": ["https://imlyk.cn/", "https://www.imlyk.cn/"],
+  "index_name": "javashub",
+  "start_urls": ["https://javashub.cn/", "https://www.javashub.cn/"],
   "selectors": {
     "lvl0": ".theme-hope-content h1",
     "lvl1": ".theme-hope-content h1",

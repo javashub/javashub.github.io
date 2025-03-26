@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://imlyk.cn/",
+  hostname: "https://javashub.cn/",
 
   author: {
     name: "JavasHub",
-    url: "https://imlyk.cn/",
+    url: "https://javashub.cn/",
   },
 
   // 网站 logo
@@ -145,7 +145,7 @@ export default hopeTheme({
     docsearch: {
       appId: "KH7SY7AEUO",
       apiKey: "c8df03a5a5e8ac753a318c6595fb6658",
-      indexName: "imlyk",
+      indexName: "javashub", // javashub
       locales: {
         "/": {
           placeholder: "搜索文档",
