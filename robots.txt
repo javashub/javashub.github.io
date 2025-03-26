@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://imlyk.cn/sitemap.xml
+Sitemap: https://javashub.cn/sitemap.xml
