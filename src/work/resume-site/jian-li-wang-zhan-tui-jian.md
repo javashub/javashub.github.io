@@ -11,3 +11,4 @@ icon: lightbulb
 - [超级简历](https://www.wondercv.com/)
 - [全民简历](https://www.qmjianli.com/)
 - [简历本](https://www.jianliben.com/)
+- [热速美斯](https://www.resumeis.com/)
