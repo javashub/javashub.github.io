@@ -145,7 +145,7 @@ export default hopeTheme({
     docsearch: {
       appId: "9JU9RU2AS7",
       apiKey: "5932aa30edad2e9ef2df7a4b0289077d",
-      indexName: "javashub", // javashub
+      indexName: "javashub",
       locales: {
         "/": {
           placeholder: "搜索文档",

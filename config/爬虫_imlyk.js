@@ -10,52 +10,15 @@ new Crawler({
     ignoreQueryParams: ["source", "utm_*"],
     actions: [
         {
-            indexName: "javashub_cn_9ju9ru2as7_articles",
+            indexName: "javashub",
             pathsToMatch: ["https://javashub.cn/**", "https://www.javashub.cn/**"],
             recordExtractor: ({ url, $, helpers }) => {
                 return helpers.article({ $, url });
             },
         },
-        {
-            indexName: "javashub_cn_9ju9ru2as7_products",
-            pathsToMatch: ["https://javashub.cn/**", "https://www.javashub.cn/**"],
-            recordExtractor: ({ url, $, helpers }) => {
-                return helpers.product({ $, url });
-            },
-        },
-        {
-            indexName: "javashub_cn_9ju9ru2as7_pages",
-            pathsToMatch: ["https://javashub.cn/**", "https://www.javashub.cn/**"],
-            recordExtractor: ({ url, $, helpers, contentLength, fileType }) => {
-                return helpers.page({ $, url, contentLength, fileType });
-            },
-        },
     ],
     initialIndexSettings: {
-        javashub_cn_9ju9ru2as7_articles: {
-            distinct: true,
-            attributeForDistinct: "url",
-            searchableAttributes: [
-                "unordered(keywords)",
-                "unordered(title)",
-                "unordered(description)",
-                "url",
-            ],
-            customRanking: ["asc(depth)"],
-            attributesForFaceting: ["category"],
-        },
-        javashub_cn_9ju9ru2as7_products: {
-            distinct: true,
-            attributeForDistinct: "url",
-            searchableAttributes: [
-                "unordered(name)",
-                "unordered(description)",
-                "url",
-            ],
-            customRanking: ["asc(depth)"],
-            attributesForFaceting: ["category"],
-        },
-        javashub_cn_9ju9ru2as7_pages: {
+        javashub: {
             distinct: true,
             attributeForDistinct: "url",
             searchableAttributes: [
