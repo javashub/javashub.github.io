@@ -144,7 +144,7 @@ export default hopeTheme({
     // docsearch 搜索插件选项
     docsearch: {
       appId: "UVSSLWQYFO", // "KH7SY7AEUO", // imlyk
-      apiKey: "7d5f58f8e1810c6ed8d0164795c7f39a", // "c8df03a5a5e8ac753a318c6595fb6658", // imlyk
+      apiKey: "7e5529ef40eb7dd648a5f7bb4db76243", // "c8df03a5a5e8ac753a318c6595fb6658", // imlyk
       indexName: "javashub", // javashub
       locales: {
         "/": {
