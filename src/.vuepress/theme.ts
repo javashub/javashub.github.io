@@ -143,8 +143,8 @@ export default hopeTheme({
 
     // docsearch 搜索插件选项
     docsearch: {
-      appId: "9JU9RU2AS7",
-      apiKey: "5932aa30edad2e9ef2df7a4b0289077d",
+      appId: "KH7SY7AEUO",
+      apiKey: "5ac1eacf09a0c6fc31a22014b9537824",
       indexName: "javashub",
       locales: {
         "/": {
