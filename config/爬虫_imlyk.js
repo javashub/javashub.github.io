@@ -1,5 +1,5 @@
 new Crawler({
-    appId: "9JU9RU2AS7",
+    appId: "KH7SY7AEUO",
     indexPrefix: "",
     rateLimit: 8,
     maxUrls: 300,
@@ -31,5 +31,5 @@ new Crawler({
             attributesForFaceting: ["category"],
         },
     },
-    apiKey: "3e81bda5968abae8996965fa0e491dd4",
+    apiKey: "f3ac81adcd737c02a0602fdf7bf1b217",
 });

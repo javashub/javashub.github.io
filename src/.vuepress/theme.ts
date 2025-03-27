@@ -142,70 +142,70 @@ export default hopeTheme({
 
 
     // docsearch 搜索插件选项
-    docsearch: {
-      appId: "I4XQY5YQ9T",
-      apiKey: "ea467eb01db103c0dd76917033d9cef4",
-      indexName: "javashub",
-      locales: {
-        "/": {
-          placeholder: "搜索文档",
-          translations: {
-            button: {
-              buttonText: "搜索文档",
-              buttonAriaLabel: "搜索文档",
-            },
-            modal: {
-              searchBox: {
-                resetButtonTitle: "清除查询条件",
-                resetButtonAriaLabel: "清除查询条件",
-                cancelButtonText: "取消",
-                cancelButtonAriaLabel: "取消",
-              },
-              startScreen: {
-                recentSearchesTitle: "搜索历史",
-                noRecentSearchesText: "没有搜索历史",
-                saveRecentSearchButtonTitle: "保存至搜索历史",
-                removeRecentSearchButtonTitle: "从搜索历史中移除",
-                favoriteSearchesTitle: "收藏",
-                removeFavoriteSearchButtonTitle: "从收藏中移除",
-              },
-              errorScreen: {
-                titleText: "无法获取结果",
-                helpText: "你可能需要检查你的网络连接",
-              },
-              footer: {
-                selectText: "选择",
-                navigateText: "切换",
-                closeText: "关闭",
-                searchByText: "搜索提供者",
-              },
-              noResultsScreen: {
-                noResultsText: "无法找到相关结果",
-                suggestedQueryText: "你可以尝试查询",
-              },
-            },
-          },
-        },
-      },
-    },
+    // docsearch: {
+    //   appId: "I4XQY5YQ9T",
+    //   apiKey: "ea467eb01db103c0dd76917033d9cef4",
+    //   indexName: "javashub",
+    //   locales: {
+    //     "/": {
+    //       placeholder: "搜索文档",
+    //       translations: {
+    //         button: {
+    //           buttonText: "搜索文档",
+    //           buttonAriaLabel: "搜索文档",
+    //         },
+    //         modal: {
+    //           searchBox: {
+    //             resetButtonTitle: "清除查询条件",
+    //             resetButtonAriaLabel: "清除查询条件",
+    //             cancelButtonText: "取消",
+    //             cancelButtonAriaLabel: "取消",
+    //           },
+    //           startScreen: {
+    //             recentSearchesTitle: "搜索历史",
+    //             noRecentSearchesText: "没有搜索历史",
+    //             saveRecentSearchButtonTitle: "保存至搜索历史",
+    //             removeRecentSearchButtonTitle: "从搜索历史中移除",
+    //             favoriteSearchesTitle: "收藏",
+    //             removeFavoriteSearchButtonTitle: "从收藏中移除",
+    //           },
+    //           errorScreen: {
+    //             titleText: "无法获取结果",
+    //             helpText: "你可能需要检查你的网络连接",
+    //           },
+    //           footer: {
+    //             selectText: "选择",
+    //             navigateText: "切换",
+    //             closeText: "关闭",
+    //             searchByText: "搜索提供者",
+    //           },
+    //           noResultsScreen: {
+    //             noResultsText: "无法找到相关结果",
+    //             suggestedQueryText: "你可以尝试查询",
+    //           },
+    //         },
+    //       },
+    //     },
+    //   },
+    // },
 
     // 简单一点的搜索
-    // slimsearch: { // SlimSearchPluginOptions 对象
-    //   // 是否索引正文，默认false
-    //   indexContent: true,
-    //   // 是否在输入时提供自动建议
-    //   suggestion: true,
-    //   // 存储查询历史的最大数量,设置 0 时禁用
-    //   queryHistoryCount: 5,
-    //   // 存储结果历史的最大数量 0 禁用
-    //   resultHistoryCount: 5,
-    //   // 弹出热键
-    //   // hotKeys:
-    //   // 自定义 CustomFieldOptions 对象数组
-    //   customFields: [
-    //
-    //   ]
-    // },
+    slimsearch: { // SlimSearchPluginOptions 对象
+      // 是否索引正文，默认false
+      indexContent: true,
+      // 是否在输入时提供自动建议
+      suggestion: true,
+      // 存储查询历史的最大数量,设置 0 时禁用
+      queryHistoryCount: 5,
+      // 存储结果历史的最大数量 0 禁用
+      resultHistoryCount: 5,
+      // 弹出热键
+      // hotKeys:
+      // 自定义 CustomFieldOptions 对象数组
+      customFields: [
+
+      ]
+    },
 
     // 订阅
     // feed: {

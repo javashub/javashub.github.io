@@ -1,6 +1,6 @@
 new Crawler({
-    appId: "9JU9RU2AS7",
-    apiKey: "3e81bda5968abae8996965fa0e491dd4",
+    appId: "I4XQY5YQ9T",
+    apiKey: "3190b9ff782c9acb5aeb20f46e11e947",
     rateLimit: 8,
     startUrls: [
         // 这是 Algolia 开始抓取网站的初始地址
